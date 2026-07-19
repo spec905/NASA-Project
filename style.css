@@ -110,8 +110,7 @@ button:hover {
     box-shadow: 0 0 15px rgba(0, 255, 102, 0.6);
 }
 
-.space-title { font-size: 14px; color: #ffffff; margin: 5px 0; }
-.loading-text { display: none; color: #ffaa00; animation: blink 1s infinite; font-weight: bold; }
+
 
 .space-explanation {
     font-size: 12px;
@@ -131,13 +130,13 @@ button:hover {
     font-style: italic;
     display: none;
 }
-
+/*download the pic*/
 .download-btn {
     display: none;
     margin-top: 10px;
     background-color: #05070a;
     color: #00ff66;
-    border: 1px solid #00ff66;
+    border: 1px solid #41d87d;
     text-decoration: none;
     padding: 8px 15px;
     font-family: monospace;
@@ -147,9 +146,6 @@ button:hover {
 
 .download-btn:hover {
     background-color: #00ff66;
-    color: #2c67c0;
+    color: #20d4a7;
 }
 
-@keyframes blink {
-    50% { opacity: 0; }
-}
