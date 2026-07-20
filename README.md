@@ -17,5 +17,5 @@ Nasa APOD API,HTML, CSS, and JavaScript
 
 No installation needed  just use it in a browser
 download this repository
-Open gy.html in any modern browser
+Open [gy.html](https://spec905.github.io/NASA-Project/) in any modern browser
 Pick a date and click CONNECT TO APOD SERVER
