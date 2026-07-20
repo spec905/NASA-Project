@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Mission -THE BIRTHDAY PICTURE -v1.2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="taskbar">
+        <div>🚀 NASA - DEEP SPACE OPERATING SYSTEM v1.2</div>
+        <div>● STATUS: CONNECTED</div>
+    </div>
+    <div class="window" id="nasa-scanner-window">
+        <div class="window-header"> NASA_BIRTHDAY_SCANNER</div>
+        <div class="window-body">
+            <div class="controls">
+                <!--typing birthdate and wait fr the scan-->
+                <p>Select your birthday to fetch the astronomical photo captured by NASA on that day:</p>
+                <input type="date" id="birthday-input" value="0000-00-00">
+                <br>
+                <button onclick="getNasaPhoto()">CONNECT TO  SERVER</button>
+            </div>
+            <!--show results-->
+            <div id="space-result">
+                <div id="loading-text">waiting...</div>
+                <h4 id="space-title">waiting...</h4>
+                <img id="space-img" src="" alt="NASA Space Picture">
+                <p id="space-explanation"></p>
+                <p id="space-copyright"></p>
+                <a id="download-btn" download target="_blank">DOWNLOAD IMAGE</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
